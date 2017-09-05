@@ -1,0 +1,79 @@
+/*a {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}*/
+
+.App {
+  font-family: 'Rouge Script', cursive;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 9em;
+  margin-top: -1em;
+}
+
+.sophie {
+  margin-right: -.5em;
+}
+
+.jack {
+  margin-left: -1em;
+}
+
+.and {
+  font-size: 5em !important;
+  opacity: 0.4;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline;
+  margin: 10px;
+}
+
+
+/*Clock*/
+
+.clock-time, countdown-title {
+  font-size: 2.8em;
+}
+
+
+/*
+#container {
+    height:1500px;
+}
+
+#container div {
+    margin:50px;
+    padding:50px;
+    width:80%;
+    height:50%;
+    background-color:lightblue;
+    -webkit-transition: all 1s ease; transition: all 1s ease;
+}
+
+.fade {
+    opacity:0;
+}
+
+.show {
+  opacity:1!important;
+}
+
+.intro {
+  margin:50px;
+  padding:50px;
+  width:80%;
+  height:50%;
+  background-color:lightgreen;
+}*/
