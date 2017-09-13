@@ -1,36 +1,31 @@
-/*a {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
+
+.menu a {
+  float: left;
   text-decoration: none;
-  color: black;
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: #153633;
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 25em;
+  margin-top: 1%;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-around;
-}*/
+.menu ul {
+  width:100%;
+  margin-left: 11%;
+  list-style-type:none;
+}
 
 .App {
-  font-family: 'Rouge Script', cursive;
+  font-family: 'Raleway', sans-serif;
   background-color: #f4beae;
   text-align: center;
-}
-/*
-.page-title {
-  width: 100%;
-  height: 500px;
-}*/
-
-.title-image {
-
 }
 
 .days, .hours, .minutes, .seconds {
   display: inline;
   margin: 10px;
 }
-
 
 /*Clock*/
 

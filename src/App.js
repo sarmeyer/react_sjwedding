@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './main.css';
-import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import Clock from './Clock';
+import MyMenuBar from './Menu';
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,8 +15,11 @@ class App extends Component {
   render() {
     return(
       <div className="App">
+        <div>
+          <MyMenuBar/>
+          </div>
         <div className="page-title">
-          <img className="title-image"src="https://s3-us-west-1.amazonaws.com/siteimages27/Screen+Shot+2017-09-13+at+10.57.44+AM.png"/>
+          <img className="title-image"src="https://s3-us-west-1.amazonaws.com/siteimages27/Screen+Shot+2017-09-13+at+1.51.51+PM.png"/>
         </div>
         <Clock
           deadline={this.state.deadline}
@@ -24,6 +27,4 @@ class App extends Component {
       </div>
     )
   }
-}
-
-export default App;
+};

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './main.css';
 
-class Clock extends Component {
+export default class Clock extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,6 +45,4 @@ class Clock extends Component {
       </div>
     )
   }
-}
-
-export default Clock;
+};
