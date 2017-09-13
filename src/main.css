@@ -13,26 +13,17 @@
 
 .App {
   font-family: 'Rouge Script', cursive;
-  background-color: lightgreen;
+  background-color: #f4beae;
   text-align: center;
 }
-
+/*
 .page-title {
-  font-size: 9em;
-  margin-top: -1em;
-}
+  width: 100%;
+  height: 500px;
+}*/
 
-.sophie {
-  margin-right: -.5em;
-}
+.title-image {
 
-.jack {
-  margin-left: -1em;
-}
-
-.and {
-  font-size: 5em !important;
-  opacity: 0.4;
 }
 
 .days, .hours, .minutes, .seconds {

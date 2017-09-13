@@ -16,9 +16,7 @@ class App extends Component {
     return(
       <div className="App">
         <div className="page-title">
-          <span className="sophie">Sophie</span>
-          <span className="and">&</span>
-          <span className="jack">Jack</span>
+          <img className="title-image"src="https://s3-us-west-1.amazonaws.com/siteimages27/Screen+Shot+2017-09-13+at+10.57.44+AM.png"/>
         </div>
         <Clock
           deadline={this.state.deadline}
