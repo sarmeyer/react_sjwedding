@@ -1,19 +1,25 @@
 
 .menu a {
-  float: left;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   color: #153633;
   font-size: 1.2em;
   font-weight: 600;
-  width: 25em;
   margin-top: 1%;
+  width: 17em;
+}
+
+.menu a:hover {
+  color: inherit;
 }
 
 .menu ul {
-  width:100%;
-  margin-left: 11%;
-  list-style-type:none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.menu {
+  position: fixed;
 }
 
 .App {
@@ -22,6 +28,9 @@
   text-align: center;
 }
 
+.title-image {
+  margin-top: 5%;
+}
 .days, .hours, .minutes, .seconds {
   display: inline;
   margin: 10px;

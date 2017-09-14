@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './main.css';
+import '../main.css';
 
 export default class Clock extends Component {
   constructor(props) {
@@ -37,6 +37,7 @@ export default class Clock extends Component {
   render() {
     return (
       <div className="clock-time">
+      <img src="https://s3-us-west-1.amazonaws.com/siteimages27/sunflower.png" alt="No Image Available"/>
         <div className="countdown-title">Time to 'I do'</div>
         <div className="days">{this.leading0(this.state.days)} days</div>
         <div className="hours">{this.leading0(this.state.hours)} hours</div>
