@@ -41,8 +41,13 @@
 .clock-time, countdown-title {
   font-size: 2.8em;
 }
+.sunflower {
+  width: 5%;
+}
 
-
+.lavender {
+  width: 8%;
+}
 /*
 #container {
     height:1500px;
