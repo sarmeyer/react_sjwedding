@@ -8,8 +8,11 @@ export default class Story extends Component {
       <div className="story" id="Story">
       <img className="lavender" src="https://cdn.monq.com/wp-content/uploads/2016/05/Lavender.png" alt="No Image Available"/>
       <h1>Our Story</h1>
+        <h4>ADDING ANOTHER CHAPTER TO OUR STORY</h4>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum tincidunt risus, vel iaculis orci sollicitudin eu. Aliquam mollis, nunc nec mattis ultrices, arcu mauris pulvinar justo, a tincidunt risus mi eget ante. Vivamus ut sagittis magna. Integer gravida pellentesque ultrices. Nunc consequat ut quam eget dignissim. Phasellus pellentesque tincidunt quam efficitur suscipit. Mauris quis sem nec magna auctor fermentum nec nec justo. Vivamus nunc risus, commodo eget sem sit amet, faucibus vulputate mauris. Maecenas sagittis, urna eget iaculis finibus, mauris nulla consectetur sem, ac sagittis lacus ipsum at orci. Suspendisse non consequat neque. In fermentum a sem eget ultricies. Duis vehicula sem ut nulla porttitor, at facilisis libero varius. Nam ut eros dolor. Curabitur tempor purus vitae nunc tempus, at ullamcorper velit viverra. Integer sapien ligula, dictum sit amet est porta, pretium malesuada elit. Nullam venenatis molestie vehicula.
+        Once upon a time there was a guy, who had just moved to Denver Colorado. He got invited by a college friend to check out the Boulder bars one Friday night, and he of course obliged. That same night there was a girl, who had had a long day of classes and decided to bake herself a chocolate cake. Her roommate tried to convince her to go out to the bars with her and her friend, but she was skeptical since she had a cake to polish off.
+        You know how fairy tales go… guy walks in with a bottle of Whiskey as girl takes her cake out of the oven. They talk, they laugh, they go out, guy does not give girl his number so she tracks him down on Facebook for a second date and the rest is history...
+        It has been quite a journey for us and we cannot wait to start this new chapter in the book of life. To share this celebration with our close family and friends is so special!
         </p>
       </div>
     );
